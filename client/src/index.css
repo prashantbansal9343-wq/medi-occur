@@ -1,0 +1,23 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes float-glow {
+  0% {
+    transform: translateY(0px);
+    box-shadow: 0 0 0 rgba(34, 211, 238, 0.15);
+  }
+  50% {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(34, 211, 238, 0.2);
+  }
+  100% {
+    transform: translateY(0px);
+    box-shadow: 0 0 0 rgba(34, 211, 238, 0.15);
+  }
+}
+
+.card-float {
+  animation: float-glow 3.2s ease-in-out infinite;
+}

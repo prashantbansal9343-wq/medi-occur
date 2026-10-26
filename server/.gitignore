@@ -1,0 +1,12 @@
+node_modules/
+.env
+.DS_Store
+npm-debug.log*
+*.log
+coverage/
+.cursor/
+.cursorignore
+.vscode/
+*.code-workspace
+uploads/
+!uploads/.gitkeep
